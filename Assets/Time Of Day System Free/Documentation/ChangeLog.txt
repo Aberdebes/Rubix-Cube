@@ -1,0 +1,125 @@
+
+
+=======================================- ChangeLog -=======================================
+___________________________________________________________________________________________
+
+
+
+=======================================-  Current  -======================================= 
+
+Notice: From this there will be no more changes in the names of the variables, 
+properties or the asset.(Changes of the names were nesessary), 
+Also, i decided to rewrite the C# code(I wanted to have a more readable code).
+
+Notice2: The new updates will be available until 2017.
+
+Notice3: Open source in Git Hub? coming soon.
+
+
+
+-------------------------------------------------------------------------------------------
+v 1.2.7
+===========================================================================================
+
+* Renamed Asset "ACR Time Of Day Free" to "Time Of Day System Free" Sorry for the change but is necessary. 
+--------------------------------------------------------------------------------------------------
+*Rewritten C# code.
+* Added Day and night state.
+* Added new default values. 
+* Added Sun Type(default unity miePhase and sunSpot).
+* Added "AC_UtilityEditor"static class.
+-------------------------------------------------------------------------------------------
+* Remplaced namespace "ACR.TimeOfDayFree"   to "AC.TimeOfDaySystemFree".
+* Remplaced "currentTime"   to "timeline".
+* Remplaced "MoonLongitude" to "MoonYaw".
+* Remplaced "MoonLatitude"  to "MoonPitch".
+* Remplaced Time Of Day Manager prefab settings.
+-------------------------------------------------------------------------------------------
+* Fixed stars twinkle curve range[0-1].
+* Fixed stars twinkle speed curve range[0-10].
+___________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+=======================================-    Old    -=======================================
+
+
+
+
+
+
+v 1.2.3 
+===========================================================================================
+
+* Renamed asset ("Basic Time Of Day" to "ACR Time Of Day".
+
+------------------------------------------------------------------------------------------
+
+* Added namespace "ACR.TimeOfDayFree".
+
+* Added TimeString property.
+
+* Added hour and minute label in custom editor.
+
+* Added selectable curves and gradients.
+
+* Added horizon fade for moon and stars.
+
+* Added fog type enum.
+
+* Added "useStarsTinkle" bool.
+-------------------------------------------------------------------------------------------
+
+
+* Removed "SunCycle" property.
+
+* Removed "Night Horizon Exponent" property(not it's necesary).
+
+* Removed "m_MoonLight" reference(now used only one directional light).
+//-----------------------------------------------------------------------------------------
+
+
+* Rename "CGCycle" property to "CGTime".
+
+* Fixed "width" of the properties in the custom editor.
+
+* Added other "Moon Halo" function.
+
+* "Night Color" now is affected by atmosphere thickness.
+
+* Disabled "Sun quality" (Temporarily). enabled only HQ.
+___________________________________________________________________________________________
+
+
+
+
+v 1.1.2
+-------------------------------------------------------------------------------------------
+* Fixed WebGL pink material.
+* Fixed moon halo bug(black square).
+___________________________________________________________________________________________
+
+
+
+v 1.1.0
+-------------------------------------------------------------------------------------------
+* Added new moon texture(no realistic).
+* Fixed moon texture position.
+* Fixed moon alpha intensity.
+* Renamed "timeInSeconds" variable to "dayInSeconds".
+* Added stars twinkle feature.
+___________________________________________________________________________________________
+
+
+
+
+
+
